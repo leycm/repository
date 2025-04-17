@@ -28,11 +28,13 @@ To use the menu library in your project, add the following dependency to your `p
     <artifactId>yaml</artifactId>
     <version>1.0.</version>
 </dependency>
+
 <dependency>
     <groupId>org.ley</groupId>
     <artifactId>menu</artifactId>
     <version>1.0.2</version>
 </dependency>
+
 <dependency>
     <groupId>org.ley</groupId>
     <artifactId>time</artifactId>
