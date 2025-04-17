@@ -24,12 +24,17 @@ To use the menu library in your project, add the following dependency to your `p
 
 ```xml
 <dependency>
-    <groupId>org.ley.menu</groupId>
-    <artifactId>menu</artifactId>
-    <version>1.0.1</version>
+    <groupId>org.ley</groupId>
+    <artifactId>yaml</artifactId>
+    <version>1.0.</version>
 </dependency>
 <dependency>
-    <groupId>org.ley.time</groupId>
+    <groupId>org.ley</groupId>
+    <artifactId>menu</artifactId>
+    <version>1.0.2</version>
+</dependency>
+<dependency>
+    <groupId>org.ley</groupId>
     <artifactId>time</artifactId>
     <version>1.0.1</version>
 </dependency>
