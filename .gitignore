@@ -1,11 +1,10 @@
-
 *
-
 !.gitignore
+!.gitattributes
 
-!/org/
-!/org/ley/
-!/org/ley/**
+!org/
+!org/ley/
+!org/ley/**
 
 **/target/
 **/target/**
