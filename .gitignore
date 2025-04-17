@@ -1,0 +1,10 @@
+*
+!.gitignore
+!.gitattributes
+
+!org/
+!org/ley/
+!org/ley/**
+
+**/target/
+**/target/**
