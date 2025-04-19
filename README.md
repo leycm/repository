@@ -26,7 +26,7 @@ To use the menu library in your project, add the following dependency to your `p
 <dependency>
     <groupId>org.ley</groupId>
     <artifactId>yaml</artifactId>
-    <version>1.0.</version>
+    <version>1.0.0</version>
 </dependency>
 
 <dependency>
