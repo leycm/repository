@@ -15,6 +15,10 @@ import java.time.LocalTime;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * The TimeMatrix class provides a sophisticated time management system for Bukkit plugins.
+ * It allows registering various types of timers and clocks that trigger at specific times or intervals.
+ */
 public final class TimeMatrix {
 
     private static final int TICKS_PER_SECOND = 20;
@@ -29,6 +33,11 @@ public final class TimeMatrix {
     private final List<Long> timeStamps = new ArrayList<>();
     private BukkitTask task;
 
+    /**
+     * Constructs a new TimeMatrix instance for the given plugin.
+     * @param plugin The plugin instance that owns this TimeMatrix
+     * @throws NullPointerException if plugin is null
+     */
     public TimeMatrix(Plugin plugin) {
         this.plugin = Objects.requireNonNull(plugin, "Plugin cannot be null");
         this.dataFile = new File(plugin.getDataFolder(), "time.yml");
@@ -36,6 +45,10 @@ public final class TimeMatrix {
         start();
     }
 
+    /**
+     * Starts the TimeMatrix scheduler.
+     * If already running, logs a warning and does nothing.
+     */
     public void start() {
         if (task != null && !task.isCancelled()) {
             plugin.getLogger().warning("TimeMatrix is already running!");
@@ -64,6 +77,9 @@ public final class TimeMatrix {
         }, 0L, 1L);
     }
 
+    /**
+     * Stops the TimeMatrix scheduler and saves data.
+     */
     public void stop() {
         if (task != null) {
             task.cancel();
@@ -104,11 +120,24 @@ public final class TimeMatrix {
         }
     }
 
-    // TimeClock methods
+    /* TimeClock Methods */
+
+    /**
+     * Registers a TimeClock to trigger at a specific time.
+     * @param clock The TimeClock implementation to register
+     * @param time The time at which the clock should trigger
+     * @throws NullPointerException if either parameter is null
+     */
     public static void registerTimeClock(TimeClock clock, LocalTime time) {
         registerTimeClock(clock, List.of(time));
     }
 
+    /**
+     * Registers a TimeClock to trigger at multiple specific times.
+     * @param clock The TimeClock implementation to register
+     * @param times List of times at which the clock should trigger
+     * @throws NullPointerException if either parameter is null
+     */
     public static void registerTimeClock(TimeClock clock, List<LocalTime> times) {
         Objects.requireNonNull(clock, "TimeClock cannot be null");
         Objects.requireNonNull(times, "Times list cannot be null");
@@ -119,10 +148,19 @@ public final class TimeMatrix {
         });
     }
 
+    /**
+     * Unregisters a TimeClock from all times.
+     * @param clock The TimeClock to unregister
+     */
     public static void unregisterTimeClock(TimeClock clock) {
         clockMap.values().forEach(list -> list.remove(clock));
     }
 
+    /**
+     * Unregisters a TimeClock from a specific time.
+     * @param clock The TimeClock to unregister
+     * @param time The time from which to unregister the clock
+     */
     public static void unregisterTimeClock(TimeClock clock, LocalTime time) {
         List<TimeClock> clocks = clockMap.get(time.withNano(0));
         if (clocks != null) {
@@ -130,7 +168,16 @@ public final class TimeMatrix {
         }
     }
 
-    // TickTimer methods
+    /* TickTimer Methods */
+
+    /**
+     * Registers a TickTimer with a duration in the specified time unit.
+     * @param timer The TickTimer implementation to register
+     * @param timeType The time unit (SECONDS, MINUTES, etc.)
+     * @param duration The duration in the specified time unit
+     * @throws IllegalArgumentException if duration is not positive
+     * @throws NullPointerException if timer or timeType is null
+     */
     public static void registerTickTimer(TickTimer timer, TimeUnit timeType, int duration) {
         if (duration <= 0) {
             throw new IllegalArgumentException("Duration must be positive");
@@ -138,11 +185,25 @@ public final class TimeMatrix {
         registerTickTimer(timer, convertToTicks(duration, timeType));
     }
 
+    /**
+     * Registers a TickTimer with multiple durations in the specified time unit.
+     * @param timer The TickTimer implementation to register
+     * @param timeType The time unit (SECONDS, MINUTES, etc.)
+     * @param durations List of durations in the specified time unit
+     * @throws NullPointerException if any parameter is null
+     * @throws IllegalArgumentException if any duration is not positive
+     */
     public static void registerTickTimer(TickTimer timer, TimeUnit timeType, List<Integer> durations) {
         Objects.requireNonNull(durations, "Durations list cannot be null");
         durations.forEach(duration -> registerTickTimer(timer, timeType, duration));
     }
 
+    /**
+     * Registers a TickTimer with a duration in ticks.
+     * @param timer The TickTimer implementation to register
+     * @param tickDuration The duration in ticks
+     * @throws IllegalArgumentException if tickDuration is not positive
+     */
     public static void registerTickTimer(TickTimer timer, int tickDuration) {
         if (tickDuration <= 0) {
             throw new IllegalArgumentException("Tick duration must be positive");
@@ -150,6 +211,13 @@ public final class TimeMatrix {
         registerTickTimer(timer, List.of(tickDuration));
     }
 
+    /**
+     * Registers a TickTimer with multiple durations in ticks.
+     * @param timer The TickTimer implementation to register
+     * @param tickDurations List of durations in ticks
+     * @throws NullPointerException if either parameter is null
+     * @throws IllegalArgumentException if any tick duration is not positive
+     */
     public static void registerTickTimer(TickTimer timer, List<Integer> tickDurations) {
         Objects.requireNonNull(timer, "TickTimer cannot be null");
         Objects.requireNonNull(tickDurations, "Tick durations list cannot be null");
@@ -162,10 +230,19 @@ public final class TimeMatrix {
         });
     }
 
+    /**
+     * Unregisters a TickTimer from all intervals.
+     * @param timer The TickTimer to unregister
+     */
     public static void unregisterTickTimer(TickTimer timer) {
         tickTimerMap.values().forEach(list -> list.remove(timer));
     }
 
+    /**
+     * Unregisters a TickTimer from a specific interval.
+     * @param timer The TickTimer to unregister
+     * @param tickDuration The tick interval from which to unregister
+     */
     public static void unregisterTickTimer(TickTimer timer, int tickDuration) {
         List<TickTimer> timers = tickTimerMap.get(tickDuration);
         if (timers != null) {
@@ -173,7 +250,16 @@ public final class TimeMatrix {
         }
     }
 
-    // RunTimer methods
+    /* RunTimer Methods */
+
+    /**
+     * Registers a RunTimer with a duration in the specified time unit.
+     * @param timer The RunTimer implementation to register
+     * @param timeType The time unit (SECONDS, MINUTES, etc.)
+     * @param time The duration in the specified time unit
+     * @throws IllegalArgumentException if time is not positive
+     * @throws NullPointerException if timer or timeType is null
+     */
     public static void registerRunTimer(RunTimer timer, TimeUnit timeType, int time) {
         if (time <= 0) {
             throw new IllegalArgumentException("Time must be positive");
@@ -181,11 +267,25 @@ public final class TimeMatrix {
         registerRunTimer(timer, convertToTicks(time, timeType));
     }
 
+    /**
+     * Registers a RunTimer with multiple durations in the specified time unit.
+     * @param timer The RunTimer implementation to register
+     * @param timeType The time unit (SECONDS, MINUTES, etc.)
+     * @param times List of durations in the specified time unit
+     * @throws NullPointerException if any parameter is null
+     * @throws IllegalArgumentException if any duration is not positive
+     */
     public static void registerRunTimer(RunTimer timer, TimeUnit timeType, List<Integer> times) {
         Objects.requireNonNull(times, "Times list cannot be null");
         times.forEach(time -> registerRunTimer(timer, timeType, time));
     }
 
+    /**
+     * Registers a RunTimer with a duration in ticks.
+     * @param timer The RunTimer implementation to register
+     * @param ticks The duration in ticks
+     * @throws IllegalArgumentException if ticks is not positive
+     */
     public static void registerRunTimer(RunTimer timer, int ticks) {
         if (ticks <= 0) {
             throw new IllegalArgumentException("Ticks must be positive");
@@ -193,6 +293,13 @@ public final class TimeMatrix {
         registerRunTimer(timer, List.of(ticks));
     }
 
+    /**
+     * Registers a RunTimer with multiple durations in ticks.
+     * @param timer The RunTimer implementation to register
+     * @param ticks List of durations in ticks
+     * @throws NullPointerException if either parameter is null
+     * @throws IllegalArgumentException if any tick duration is not positive
+     */
     public static void registerRunTimer(RunTimer timer, List<Integer> ticks) {
         Objects.requireNonNull(timer, "RunTimer cannot be null");
         Objects.requireNonNull(ticks, "Ticks list cannot be null");
@@ -205,10 +312,19 @@ public final class TimeMatrix {
         });
     }
 
+    /**
+     * Unregisters a RunTimer from all intervals.
+     * @param timer The RunTimer to unregister
+     */
     public static void unregisterRunTimer(RunTimer timer) {
         runTimerMap.values().forEach(list -> list.remove(timer));
     }
 
+    /**
+     * Unregisters a RunTimer from a specific interval.
+     * @param timer The RunTimer to unregister
+     * @param ticks The tick interval from which to unregister
+     */
     public static void unregisterRunTimer(RunTimer timer, int ticks) {
         List<RunTimer> timers = runTimerMap.get(ticks);
         if (timers != null) {
@@ -216,25 +332,46 @@ public final class TimeMatrix {
         }
     }
 
-    // Utility methods
+    /* Utility Methods */
+
+    /**
+     * Converts a duration in the given time unit to ticks.
+     * @param duration The duration to convert
+     * @param timeType The time unit of the duration
+     * @return The duration in ticks
+     * @throws NullPointerException if timeType is null
+     */
     private static int convertToTicks(int duration, TimeUnit timeType) {
         Objects.requireNonNull(timeType, "TimeUnit cannot be null");
         return (int) (timeType.toSeconds(duration) * TICKS_PER_SECOND);
     }
 
+    /**
+     * Gets the current global tick count since the TimeMatrix started.
+     * @return The global tick count
+     */
     public int getGlobalTick() {
         return globalTick;
     }
 
+    /**
+     * Gets the current run tick count since the last reset.
+     * @return The run tick count
+     */
     public int getRunTick() {
         return runTick;
     }
 
+    /**
+     * Gets an unmodifiable list of all recorded timestamps.
+     * @return List of timestamps in milliseconds
+     */
     public List<Long> getTimeStamps() {
         return Collections.unmodifiableList(timeStamps);
     }
 
-    // Internal check methods
+    /* Internal Methods */
+
     private void checkTimeClock(LocalDate date, LocalTime time) {
         LocalTime roundedTime = time.withNano(0);
         List<TimeClock> clocks = clockMap.get(roundedTime);
