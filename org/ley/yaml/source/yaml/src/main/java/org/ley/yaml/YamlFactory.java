@@ -16,6 +16,8 @@ public final class YamlFactory {
         YamlFactory.folderPath = folderPath;
     }
 
+
+
     /**
      * Loads (or creates) a new YamlFile and stores it in the map.
      * @param folderPath Path to the folder relative to the plugin's data folder.
