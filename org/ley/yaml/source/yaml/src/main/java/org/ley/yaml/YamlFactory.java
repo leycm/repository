@@ -9,9 +9,11 @@ public final class YamlFactory {
 
     private static JavaPlugin plugin;
     private static final Map<String, YamlFile> files = new HashMap<>();
+    private static String folderPath;
 
-    public YamlFactory(JavaPlugin plugin) {
+    public YamlFactory(JavaPlugin plugin, String folderPath) {
         YamlFactory.plugin = plugin;
+        YamlFactory.folderPath = folderPath;
     }
 
 
@@ -31,6 +33,7 @@ public final class YamlFactory {
         }
         return files.get(key);
     }
+    public static YamlFile load(String fileName) {return load(folderPath.toString(), fileName);}
 
     /**
      * Gets a loaded YamlFile from the map.
@@ -42,6 +45,7 @@ public final class YamlFactory {
         String key = folderPath + "/" + fileName;
         return files.get(key);
     }
+    public static YamlFile get(String fileName) {return get(folderPath.toString(), fileName);}
 
     /**
      * Saves all loaded YAML files.
