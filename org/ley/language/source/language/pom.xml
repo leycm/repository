@@ -6,7 +6,7 @@
 
     <groupId>org.ley</groupId>
     <artifactId>language</artifactId>
-    <version>1.0.1</version>
+    <version>2.0.3</version>
     <packaging>jar</packaging>
 
     <name>language</name>
@@ -56,10 +56,9 @@
     <dependencies>
 
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.36</version>
-            <scope>provided</scope>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.15.3</version> <!-- oder eine neuere Version -->
         </dependency>
 
     </dependencies>
