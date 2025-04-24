@@ -1,4 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Apr 24 14:03:01 CEST 2025
-yaml-1.0.0-DEV.1.jar>=
-yaml-1.0.0-DEV.1.pom>=
+#Sat Apr 19 15:48:51 CEST 2025
+yaml-1.0.0.jar>=
+yaml-1.0.0.pom>=
