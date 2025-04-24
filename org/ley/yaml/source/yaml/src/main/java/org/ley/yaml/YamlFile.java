@@ -441,13 +441,18 @@ public class YamlFile {
             if (!rawFile.getParentFile().exists()) {
                 rawFile.getParentFile().mkdirs();
             }
-            // Only use the file name for getting resource from inside the plugin
+
             InputStream in = plugin.getResource(pathToYamlFile);
             if (in != null) {
-                Files.copy(in, rawFile.toPath());
-            } else {
-                rawFile.createNewFile();
+                try {
+                    Files.copy(in, rawFile.toPath());
+                    return;
+                } finally {
+                    in.close();
+                }
             }
+
+            rawFile.createNewFile();
 
         } catch (IOException e) {
             e.printStackTrace();

@@ -34,6 +34,7 @@
     &quot;Maven.time [package].executor&quot;: &quot;Run&quot;,
     &quot;Maven.update / clean install.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Speicher/solarstromlab/plugins/SolarCore&quot;
   }
