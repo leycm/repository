@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.leycm.frames",
+    "module": "the-frame",
+    "version": "1.2.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "the-frame-1.2.5.jar",
+          "url": "the-frame-1.2.5.jar",
+          "size": 35976,
+          "sha512": "6472f551167c49044d806121b216955278953ff36a43056aae4725b95cb8a3f13f9e13258c7f4f57bbe04237d381e53d0bf3f3aa0df5dbf3521b419bf237ac0e",
+          "sha256": "87dcd35e024fce546a3641cd7644111e15c9bc2c01a397653d1afa17d8e7f3fe",
+          "sha1": "f66fdf0953aa067a8b71ab38efe02ed00e880466",
+          "md5": "3d0aeda2a27ea14f50b7bb4fd3acbf6a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.3.1-jre"
+          }
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-yaml",
+          "version": {
+            "requires": "2.16.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "the-frame-1.2.5.jar",
+          "url": "the-frame-1.2.5.jar",
+          "size": 35976,
+          "sha512": "6472f551167c49044d806121b216955278953ff36a43056aae4725b95cb8a3f13f9e13258c7f4f57bbe04237d381e53d0bf3f3aa0df5dbf3521b419bf237ac0e",
+          "sha256": "87dcd35e024fce546a3641cd7644111e15c9bc2c01a397653d1afa17d8e7f3fe",
+          "sha1": "f66fdf0953aa067a8b71ab38efe02ed00e880466",
+          "md5": "3d0aeda2a27ea14f50b7bb4fd3acbf6a"
+        }
+      ]
+    }
+  ]
+}

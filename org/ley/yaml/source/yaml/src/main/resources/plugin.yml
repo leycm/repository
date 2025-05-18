@@ -1,4 +1,0 @@
-name: yaml
-version: '1.0.0'
-main: org.ley.yaml.tools.BukkitPluginMainClass
-api-version: '1.21'
