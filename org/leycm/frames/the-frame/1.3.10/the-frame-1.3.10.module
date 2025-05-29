@@ -27,11 +27,11 @@
         {
           "name": "the-frame-1.3.10.jar",
           "url": "the-frame-1.3.10.jar",
-          "size": 44353,
-          "sha512": "3112303409cbae12583487884d019b682580c1de18387c8c7a33ef06b6401e4424ac1ced2b1df8f08a2ce9f1245e9757fa20d75a224407f34f2e87f6c3496057",
-          "sha256": "6b51943a2015271c13f5ffe768e3973f890db33d0bba0240be9b777f4b232748",
-          "sha1": "912e41e26581eda4ef2f7a092d9f3ad77bdc5e64",
-          "md5": "df5246e938891ba4bdb2923ab4428c42"
+          "size": 44352,
+          "sha512": "d13210fd070f99304c0c7aa4432037a0620a3aa8cf5f2b15f3ca7253af88c137ab68a3012c1c43900c8c171222b1874668b7246d5e8aa5b2c5fe72f89e2cd059",
+          "sha256": "1f573fb4b354bfb4a8c2597a54043ff30633c82ee04bfe562e4aee6e64583933",
+          "sha1": "2bcbcf2d036938d0ee2a62485f65085833d0a47f",
+          "md5": "af88daf9c28ea26090bf4c322c76e31d"
         }
       ]
     },
@@ -78,11 +78,11 @@
         {
           "name": "the-frame-1.3.10.jar",
           "url": "the-frame-1.3.10.jar",
-          "size": 44353,
-          "sha512": "3112303409cbae12583487884d019b682580c1de18387c8c7a33ef06b6401e4424ac1ced2b1df8f08a2ce9f1245e9757fa20d75a224407f34f2e87f6c3496057",
-          "sha256": "6b51943a2015271c13f5ffe768e3973f890db33d0bba0240be9b777f4b232748",
-          "sha1": "912e41e26581eda4ef2f7a092d9f3ad77bdc5e64",
-          "md5": "df5246e938891ba4bdb2923ab4428c42"
+          "size": 44352,
+          "sha512": "d13210fd070f99304c0c7aa4432037a0620a3aa8cf5f2b15f3ca7253af88c137ab68a3012c1c43900c8c171222b1874668b7246d5e8aa5b2c5fe72f89e2cd059",
+          "sha256": "1f573fb4b354bfb4a8c2597a54043ff30633c82ee04bfe562e4aee6e64583933",
+          "sha1": "2bcbcf2d036938d0ee2a62485f65085833d0a47f",
+          "md5": "af88daf9c28ea26090bf4c322c76e31d"
         }
       ]
     }
