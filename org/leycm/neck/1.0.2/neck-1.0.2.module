@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.leycm",
+    "module": "neck",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 22,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "neck-1.0.2.jar",
+          "url": "neck-1.0.2.jar",
+          "size": 21093,
+          "sha512": "b177107ba331ee7599c98022c3ef039dc33c8676bea5e09be68816cf3b56a2c633dfcefcffb742f891f355eb4c1aa9a79d2d67b7f87c367089c971771eba2f60",
+          "sha256": "776a0b891d9e77795a07fcb3418ff562d5b95e6ef36ea8c731ffb74844a86c5e",
+          "sha1": "ea8743c0cb6521d6b385dbff1fd87ade15eacefe",
+          "md5": "2225ad47df1d5c8f4b45c21fdc29abdb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 22,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "neck-1.0.2.jar",
+          "url": "neck-1.0.2.jar",
+          "size": 21093,
+          "sha512": "b177107ba331ee7599c98022c3ef039dc33c8676bea5e09be68816cf3b56a2c633dfcefcffb742f891f355eb4c1aa9a79d2d67b7f87c367089c971771eba2f60",
+          "sha256": "776a0b891d9e77795a07fcb3418ff562d5b95e6ef36ea8c731ffb74844a86c5e",
+          "sha1": "ea8743c0cb6521d6b385dbff1fd87ade15eacefe",
+          "md5": "2225ad47df1d5c8f4b45c21fdc29abdb"
+        }
+      ]
+    }
+  ]
+}
