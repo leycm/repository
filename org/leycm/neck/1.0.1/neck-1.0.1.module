@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.leycm",
+    "module": "neck",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 22,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "neck-1.0.1.jar",
+          "url": "neck-1.0.1.jar",
+          "size": 20928,
+          "sha512": "2f6700f29414bafd69b6f5ee9bad27fcdc215abe1337b759eda925c99eae1030ee06d043daea23df6d48ca493a5be74d9c04e3747e0cbfd7421b1bc9e829493b",
+          "sha256": "ffee7e0d15fea515ed537106a5e7fe4d523613f27f0b79d6923e92fc442ea95e",
+          "sha1": "03dc1add9ef25f8ac65ce54f96b40b42dbd3cace",
+          "md5": "a0870cc2208b6915f753521e728ca3b7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 22,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "neck-1.0.1.jar",
+          "url": "neck-1.0.1.jar",
+          "size": 20928,
+          "sha512": "2f6700f29414bafd69b6f5ee9bad27fcdc215abe1337b759eda925c99eae1030ee06d043daea23df6d48ca493a5be74d9c04e3747e0cbfd7421b1bc9e829493b",
+          "sha256": "ffee7e0d15fea515ed537106a5e7fe4d523613f27f0b79d6923e92fc442ea95e",
+          "sha1": "03dc1add9ef25f8ac65ce54f96b40b42dbd3cace",
+          "md5": "a0870cc2208b6915f753521e728ca3b7"
+        }
+      ]
+    }
+  ]
+}
