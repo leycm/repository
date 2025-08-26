@@ -3,7 +3,7 @@
   "component": {
     "group": "org.leycm",
     "module": "neck",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "neck-1.0.4.jar",
-          "url": "neck-1.0.4.jar",
-          "size": 31204,
-          "sha512": "0ae7b706a2fa5273158798502bb3d50e666527a8124f1758dae15134f6c921ae2d157d5d587cab81be817abe6e2097ef5a3afb05915ae824bb514ba14cad1b2c",
-          "sha256": "b9e71947e1207f8c2a9b3e62803426693a680c38b256e70a22be3c5424085c0a",
-          "sha1": "6e0a85392e6ba7d9755c80eb40d0e4ea04dfecc9",
-          "md5": "63256cc3dccbf70e4904d0388bd84ff0"
+          "name": "neck-1.0.5.jar",
+          "url": "neck-1.0.5.jar",
+          "size": 37526,
+          "sha512": "3907fb5e4a6740e8290020341b3771bd228369de6fb2d2258418a8560a4c1b74e48047f2325092e4aade2f95821b8d6c8b1dd0daf28a26bdadf9c8a8567b70a5",
+          "sha256": "c6fe3fb2324baad85dec7541bae49cecc846cf8bbbb97bd805b4883c51cab9bd",
+          "sha1": "730314834f33a558890eb125cd9ab62fe699081e",
+          "md5": "40da6055ca87cb7231130f0f4a68b984"
         }
       ]
     },
@@ -62,13 +62,13 @@
       ],
       "files": [
         {
-          "name": "neck-1.0.4.jar",
-          "url": "neck-1.0.4.jar",
-          "size": 31204,
-          "sha512": "0ae7b706a2fa5273158798502bb3d50e666527a8124f1758dae15134f6c921ae2d157d5d587cab81be817abe6e2097ef5a3afb05915ae824bb514ba14cad1b2c",
-          "sha256": "b9e71947e1207f8c2a9b3e62803426693a680c38b256e70a22be3c5424085c0a",
-          "sha1": "6e0a85392e6ba7d9755c80eb40d0e4ea04dfecc9",
-          "md5": "63256cc3dccbf70e4904d0388bd84ff0"
+          "name": "neck-1.0.5.jar",
+          "url": "neck-1.0.5.jar",
+          "size": 37526,
+          "sha512": "3907fb5e4a6740e8290020341b3771bd228369de6fb2d2258418a8560a4c1b74e48047f2325092e4aade2f95821b8d6c8b1dd0daf28a26bdadf9c8a8567b70a5",
+          "sha256": "c6fe3fb2324baad85dec7541bae49cecc846cf8bbbb97bd805b4883c51cab9bd",
+          "sha1": "730314834f33a558890eb125cd9ab62fe699081e",
+          "md5": "40da6055ca87cb7231130f0f4a68b984"
         }
       ]
     }
