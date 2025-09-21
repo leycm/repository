@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.leycm.neck",
+    "module": "neck",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 22,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "neck-1.1.0.jar",
+          "url": "neck-1.1.0.jar",
+          "size": 40166,
+          "sha512": "87c914bac15aa28986f15799e3a79c2966440286780b93f8b4936d56387ea0ad79204bfa0bff8e96a3d6dfeb49b0e11e5d8600a41a77c431d8673d244b95fb36",
+          "sha256": "b0cc06b0ac69d5c7463d25c487c428bf8b16bbe4080579863fdf29cab8bc99a4",
+          "sha1": "9885cb05b5266525a5870242fdd56985037b688f",
+          "md5": "cacec8fe825f4a4d540406e4f44cbf3d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 22,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "6.1.9"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.0.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.9"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-simple",
+          "version": {
+            "requires": "2.0.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "neck-1.1.0.jar",
+          "url": "neck-1.1.0.jar",
+          "size": 40166,
+          "sha512": "87c914bac15aa28986f15799e3a79c2966440286780b93f8b4936d56387ea0ad79204bfa0bff8e96a3d6dfeb49b0e11e5d8600a41a77c431d8673d244b95fb36",
+          "sha256": "b0cc06b0ac69d5c7463d25c487c428bf8b16bbe4080579863fdf29cab8bc99a4",
+          "sha1": "9885cb05b5266525a5870242fdd56985037b688f",
+          "md5": "cacec8fe825f4a4d540406e4f44cbf3d"
+        }
+      ]
+    }
+  ]
+}

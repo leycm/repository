@@ -1,7 +1,7 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "org.leycm",
+    "group": "org.leycm.neck",
     "module": "neck",
     "version": "1.0.5",
     "attributes": {
