@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.leycm.neck",
+    "module": "neck",
+    "version": "2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 22,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "neck-2.1.0.jar",
+          "url": "neck-2.1.0.jar",
+          "size": 47906,
+          "sha512": "0f4c1ae19d16e20e0ef6e16b0056c43894bf8de9f7bf95c8aa0d3e868cb9d6eb5de7adea91227df1eb86612a3ae1c675c1abd295eabc5c2e43b0d13c51bef8f8",
+          "sha256": "b448f5c24d0ffaa38c104684d70c288a23ceb4bdd15dd31e71f34f6979611601",
+          "sha1": "d0ca8025f19a42bf8b52d8f24d04f7552c180c5f",
+          "md5": "b3cf6cfc747f15bf7597ce0c8b9f8cfd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 22,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "6.1.9"
+          }
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.0.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.9"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-simple",
+          "version": {
+            "requires": "2.0.9"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api",
+          "version": {
+            "requires": "4.24.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson",
+          "version": {
+            "requires": "4.24.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-plain",
+          "version": {
+            "requires": "4.24.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-minimessage",
+          "version": {
+            "requires": "4.24.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-legacy",
+          "version": {
+            "requires": "4.24.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "neck-2.1.0.jar",
+          "url": "neck-2.1.0.jar",
+          "size": 47906,
+          "sha512": "0f4c1ae19d16e20e0ef6e16b0056c43894bf8de9f7bf95c8aa0d3e868cb9d6eb5de7adea91227df1eb86612a3ae1c675c1abd295eabc5c2e43b0d13c51bef8f8",
+          "sha256": "b448f5c24d0ffaa38c104684d70c288a23ceb4bdd15dd31e71f34f6979611601",
+          "sha1": "d0ca8025f19a42bf8b52d8f24d04f7552c180c5f",
+          "md5": "b3cf6cfc747f15bf7597ce0c8b9f8cfd"
+        }
+      ]
+    }
+  ]
+}
