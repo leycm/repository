@@ -1,9 +1,11 @@
 #!/bin/bash
-
 REPO_DIR="$(pwd)"
 COMMIT_MSG="Automatic Maven publish $(date '+%Y-%m-%d %H:%M:%S')"
 BRANCH="main"
 IGNORE_FILE="$(basename "$0")"
+TOKEN="YOUR_TOKEN"
+USERNAME="leycm"
+REPO="repository"
 
 mvn clean install
 
@@ -15,8 +17,8 @@ git add .
 
 git commit -m "$COMMIT_MSG"
 
-git push origin "$BRANCH"
+git push -f "https://${USERNAME}:${TOKEN}@github.com/${USERNAME}/${REPO}.git" "$BRANCH"
 
 git update-index --no-assume-unchanged "$IGNORE_FILE"
 
-echo "Maven build and GitHub Pages push completed!"
+echo "Maven build and GitHub Pages push completed via token!"
