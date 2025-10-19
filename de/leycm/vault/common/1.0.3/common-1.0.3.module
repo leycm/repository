@@ -27,11 +27,11 @@
         {
           "name": "common-1.0.3.jar",
           "url": "common-1.0.3.jar",
-          "size": 1524733,
-          "sha512": "485ba4b7793ba34d202650a831f6db5832198609eebc7e31f758b0ffe8ee05ab1e3726bab14df254364f6de7db677a7f838cd396a790537e6d611285b40c0178",
-          "sha256": "4e8d529b5238ca4f12e61c4ba9813783b2200b06a76a78a5d0c5cf0ce5356ecc",
-          "sha1": "a1d5887ffb5f2a014263af304d77ac71a0ad8bb6",
-          "md5": "ae61485cf3597f9e818ae9896215aed4"
+          "size": 1536121,
+          "sha512": "415ecf8b77516f765e7b17203fb2d28af8f8bec66c34a20f94d6ce4ef599bd931647ca3da4931fb846522f519d86a1cf5812637137cb6290e72e6918d685ccee",
+          "sha256": "6e643637b9af43c94899eef9c1fd57ee42d0bdd51921303bf043668c951b9697",
+          "sha1": "3702672a5e841dd6e66e38e53c253a706b0570b7",
+          "md5": "00343349b19a58aab5fca6f033f432d2"
         }
       ]
     },
@@ -86,17 +86,24 @@
           "version": {
             "requires": "4.2.0"
           }
+        },
+        {
+          "group": "de.leycm.neck",
+          "module": "api",
+          "version": {
+            "requires": "1.0.2"
+          }
         }
       ],
       "files": [
         {
           "name": "common-1.0.3.jar",
           "url": "common-1.0.3.jar",
-          "size": 1524733,
-          "sha512": "485ba4b7793ba34d202650a831f6db5832198609eebc7e31f758b0ffe8ee05ab1e3726bab14df254364f6de7db677a7f838cd396a790537e6d611285b40c0178",
-          "sha256": "4e8d529b5238ca4f12e61c4ba9813783b2200b06a76a78a5d0c5cf0ce5356ecc",
-          "sha1": "a1d5887ffb5f2a014263af304d77ac71a0ad8bb6",
-          "md5": "ae61485cf3597f9e818ae9896215aed4"
+          "size": 1536121,
+          "sha512": "415ecf8b77516f765e7b17203fb2d28af8f8bec66c34a20f94d6ce4ef599bd931647ca3da4931fb846522f519d86a1cf5812637137cb6290e72e6918d685ccee",
+          "sha256": "6e643637b9af43c94899eef9c1fd57ee42d0bdd51921303bf043668c951b9697",
+          "sha1": "3702672a5e841dd6e66e38e53c253a706b0570b7",
+          "md5": "00343349b19a58aab5fca6f033f432d2"
         }
       ]
     }
