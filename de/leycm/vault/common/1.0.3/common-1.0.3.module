@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.leycm.vault",
+    "module": "common",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "common-1.0.3.jar",
+          "url": "common-1.0.3.jar",
+          "size": 1524733,
+          "sha512": "485ba4b7793ba34d202650a831f6db5832198609eebc7e31f758b0ffe8ee05ab1e3726bab14df254364f6de7db677a7f838cd396a790537e6d611285b40c0178",
+          "sha256": "4e8d529b5238ca4f12e61c4ba9813783b2200b06a76a78a5d0c5cf0ce5356ecc",
+          "sha1": "a1d5887ffb5f2a014263af304d77ac71a0ad8bb6",
+          "md5": "ae61485cf3597f9e818ae9896215aed4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.leycm.vault",
+          "module": "api",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-yaml",
+          "version": {
+            "requires": "4.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-1.0.3.jar",
+          "url": "common-1.0.3.jar",
+          "size": 1524733,
+          "sha512": "485ba4b7793ba34d202650a831f6db5832198609eebc7e31f758b0ffe8ee05ab1e3726bab14df254364f6de7db677a7f838cd396a790537e6d611285b40c0178",
+          "sha256": "4e8d529b5238ca4f12e61c4ba9813783b2200b06a76a78a5d0c5cf0ce5356ecc",
+          "sha1": "a1d5887ffb5f2a014263af304d77ac71a0ad8bb6",
+          "md5": "ae61485cf3597f9e818ae9896215aed4"
+        }
+      ]
+    }
+  ]
+}
