@@ -27,11 +27,11 @@
         {
           "name": "common-1.0.3.jar",
           "url": "common-1.0.3.jar",
-          "size": 1536121,
-          "sha512": "415ecf8b77516f765e7b17203fb2d28af8f8bec66c34a20f94d6ce4ef599bd931647ca3da4931fb846522f519d86a1cf5812637137cb6290e72e6918d685ccee",
-          "sha256": "6e643637b9af43c94899eef9c1fd57ee42d0bdd51921303bf043668c951b9697",
-          "sha1": "3702672a5e841dd6e66e38e53c253a706b0570b7",
-          "md5": "00343349b19a58aab5fca6f033f432d2"
+          "size": 1536583,
+          "sha512": "3ba147a6e18bd3f10386ed22c68e1f94e36b774037648b22f1bc0edcf2e05c39601ff204a29e3cc863bc09fbbd40c412b0f1f8f6c44146e2d4869c3b065d7a7f",
+          "sha256": "e75e3e354492554aa88316833c9d8e3145be202cbab9da96a232dba6c4e04a2d",
+          "sha1": "8d869285df424f2d1c1e01d1d87b96d8c916d72b",
+          "md5": "8af45700305456e14d0e4507aeccc875"
         }
       ]
     },
@@ -91,7 +91,7 @@
           "group": "de.leycm.neck",
           "module": "api",
           "version": {
-            "requires": "1.0.2"
+            "requires": "1.1.5"
           }
         }
       ],
@@ -99,11 +99,51 @@
         {
           "name": "common-1.0.3.jar",
           "url": "common-1.0.3.jar",
-          "size": 1536121,
-          "sha512": "415ecf8b77516f765e7b17203fb2d28af8f8bec66c34a20f94d6ce4ef599bd931647ca3da4931fb846522f519d86a1cf5812637137cb6290e72e6918d685ccee",
-          "sha256": "6e643637b9af43c94899eef9c1fd57ee42d0bdd51921303bf043668c951b9697",
-          "sha1": "3702672a5e841dd6e66e38e53c253a706b0570b7",
-          "md5": "00343349b19a58aab5fca6f033f432d2"
+          "size": 1536583,
+          "sha512": "3ba147a6e18bd3f10386ed22c68e1f94e36b774037648b22f1bc0edcf2e05c39601ff204a29e3cc863bc09fbbd40c412b0f1f8f6c44146e2d4869c3b065d7a7f",
+          "sha256": "e75e3e354492554aa88316833c9d8e3145be202cbab9da96a232dba6c4e04a2d",
+          "sha1": "8d869285df424f2d1c1e01d1d87b96d8c916d72b",
+          "md5": "8af45700305456e14d0e4507aeccc875"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "common-1.0.3-sources.jar",
+          "url": "common-1.0.3-sources.jar",
+          "size": 1516544,
+          "sha512": "2c17a990a72251e950afa3f994e59150200d60d4ef5d27cdad7e698d0209384ecd66ca82c1c7112f355882e560090024bbfee88ce5c6018d4595c14f7c03f30f",
+          "sha256": "78c973b0fa908955742ced0e637e328c1f360de2942321dcbc1c94d587242019",
+          "sha1": "08220c9faa4c49ac1f0c322c9d6233c261d22702",
+          "md5": "e630e75d5084f624bb921e2aef4a7f30"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "common-1.0.3-javadoc.jar",
+          "url": "common-1.0.3-javadoc.jar",
+          "size": 1650331,
+          "sha512": "1bd1332895285dcdeff29273afb5a592dd11982c8e86a801d3bff042bf75bbaee6541b9569d5b78f5d7e1f80e9b28ed84d74926a7ec40889ec0052a54b6c062e",
+          "sha256": "22bdc49867f49f0ae8823ecb232c248dbfefc7e6830351546a31ca6938d1ee98",
+          "sha1": "0d12295659d5bc51f6d39c1eae02faf8d8061b8a",
+          "md5": "dad1c07e8f0ee67bebc8d4e92427daf3"
         }
       ]
     }
