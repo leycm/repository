@@ -3,13 +3,14 @@
   <groupId>de.leycm.flux</groupId>
   <artifactId>api</artifactId>
   <versioning>
-    <latest>1.0.5</latest>
-    <release>1.0.5</release>
+    <latest>1.0.6</latest>
+    <release>1.0.6</release>
     <versions>
       <version>1.0.1</version>
       <version>1.0.2</version>
       <version>1.0.5</version>
+      <version>1.0.6</version>
     </versions>
-    <lastUpdated>20251104190008</lastUpdated>
+    <lastUpdated>20251104190028</lastUpdated>
   </versioning>
 </metadata>
