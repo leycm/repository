@@ -10,4 +10,34 @@
   <groupId>de.leycm.template</groupId>
   <artifactId>common</artifactId>
   <version>1.0.1</version>
+  <name>common</name>
+  <description>Automatically published by LEYCM build system.</description>
+  <url>https://github.com/leycm</url>
+  <licenses>
+    <license>
+      <name>LECP License</name>
+      <url>https://github.com/leycm/leycm/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>leycm</id>
+      <name>LeyCM</name>
+      <email>leycm@proton.me</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>de.leycm.template</groupId>
+      <artifactId>api</artifactId>
+      <version>1.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>de.leycm.neck</groupId>
+      <artifactId>api</artifactId>
+      <version>1.1.5</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
 </project>
