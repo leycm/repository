@@ -10,4 +10,20 @@
   <groupId>de.leycm.flux</groupId>
   <artifactId>api</artifactId>
   <version>1.0.5</version>
+  <name>api</name>
+  <description>Automatically published by LEYCM build system.</description>
+  <url>https://github.com/leycm</url>
+  <licenses>
+    <license>
+      <name>LECP License</name>
+      <url>https://github.com/leycm/leycm/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>leycm</id>
+      <name>LeyCM</name>
+      <email>leycm@proton.me</email>
+    </developer>
+  </developers>
 </project>
