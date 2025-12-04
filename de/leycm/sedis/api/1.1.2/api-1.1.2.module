@@ -68,11 +68,11 @@
         {
           "name": "api-1.1.2-sources.jar",
           "url": "api-1.1.2-sources.jar",
-          "size": 13370,
-          "sha512": "090dd92681396cb490b26b31c2c4ecbc82060fde10aae7d8847efe75c82e2bcaa58920fa324c36442948e64df6f2f2134229acfc1a80c85a82958b5230f5b4d5",
-          "sha256": "3256ec86b7626f190961a5c4a6c70cb278742cb08e73a84bf1000fc32ec06907",
-          "sha1": "f148d0b5cd41f06c96256159e6fd6adaffa2b72b",
-          "md5": "e7359cf91d416c56f31617a85ff0791f"
+          "size": 13376,
+          "sha512": "556f802d1561cf9d12d9a1e3a69d83c7641e918734c7488be299af5d88ee5990fa9022da7cf1a322d2c4dc4ff140505fb1883a08ada93099a23a5bee213d58e5",
+          "sha256": "080577d6a3f087697266a7382f621dfbefd1b20fac77f474e7c05e7ca3a8548d",
+          "sha1": "4481512c1d72fbd8d165e36e2f5e0cb867a11415",
+          "md5": "c1ebd72e57b466c25a950885472a552b"
         }
       ]
     },
@@ -88,11 +88,11 @@
         {
           "name": "api-1.1.2-javadoc.jar",
           "url": "api-1.1.2-javadoc.jar",
-          "size": 120479,
-          "sha512": "57662111b14dcfdea54267efea78ac41a8f1c53a9d7621b53d220e109524b2e02186f7a2a5e07138d20a0504775a6ce3c2dd618e3d520de6aa986e8c2eee73bd",
-          "sha256": "fc6c897fef7b951c738fdab32362bb9a3367ccc849e751ffa5a348df6ec44d52",
-          "sha1": "31651b958135d9efaa6d1b79cba2c6f09333ae85",
-          "md5": "7549d93fd76b945c8436b7d60cf980bf"
+          "size": 120483,
+          "sha512": "42ea9eb9937094cbacad3d2ea435dc7a7545faf7c8e0ebc44d57560e0804918d28828d26a9457b32e385aca59c88144d6e5754c40898cc4a86ae9bc210765e55",
+          "sha256": "62c9f506c6cbc7ebe45e50a8084608f3543e263a6912b35d8294a72bba986924",
+          "sha1": "7655cb8e2b7d41d88629c5ae2feea784afe47cef",
+          "md5": "48ec7bb5ccd4d8f232ced57d61b730cd"
         }
       ]
     }
