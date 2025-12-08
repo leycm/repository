@@ -27,11 +27,11 @@
         {
           "name": "api-1.1.7.jar",
           "url": "api-1.1.7.jar",
-          "size": 17570,
-          "sha512": "e3d4fce3293ea424f2ebb3af74025ea85fb8a952fd580bd65838ef3a9aee15ed119ae23c6afbd1d5b112f0b334cef918fe46e3dd12e893d98f1702c548c3af5d",
-          "sha256": "991fde4354217b28aaa78f304eb5f0ee9f0bba44c975a3fb81fb7494b5da4c16",
-          "sha1": "2a3fc0867371e197b1313c1722b1646735dc02b8",
-          "md5": "ae973e3ee363abbd1d15391ef9a05f77"
+          "size": 17529,
+          "sha512": "4777b5c07fa4b6c41f28ec1cb01a587cf69e122811d4c7924c1fbab79d96850e19ce998f20aaa15e53a8236c4c18605832cc30cc31ce1da2502cd9aed191874d",
+          "sha256": "81efea7ae6796a0e4ef1eb1959e6d4c582145969803ad9f6ba2511279988203b",
+          "sha1": "081ec58a2ca9f884a1ad3b6cf0c9301404a275a8",
+          "md5": "c737bc48b3cffc98f3a8278c569cd310"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "api-1.1.7.jar",
           "url": "api-1.1.7.jar",
-          "size": 17570,
-          "sha512": "e3d4fce3293ea424f2ebb3af74025ea85fb8a952fd580bd65838ef3a9aee15ed119ae23c6afbd1d5b112f0b334cef918fe46e3dd12e893d98f1702c548c3af5d",
-          "sha256": "991fde4354217b28aaa78f304eb5f0ee9f0bba44c975a3fb81fb7494b5da4c16",
-          "sha1": "2a3fc0867371e197b1313c1722b1646735dc02b8",
-          "md5": "ae973e3ee363abbd1d15391ef9a05f77"
+          "size": 17529,
+          "sha512": "4777b5c07fa4b6c41f28ec1cb01a587cf69e122811d4c7924c1fbab79d96850e19ce998f20aaa15e53a8236c4c18605832cc30cc31ce1da2502cd9aed191874d",
+          "sha256": "81efea7ae6796a0e4ef1eb1959e6d4c582145969803ad9f6ba2511279988203b",
+          "sha1": "081ec58a2ca9f884a1ad3b6cf0c9301404a275a8",
+          "md5": "c737bc48b3cffc98f3a8278c569cd310"
         }
       ]
     },
@@ -68,11 +68,11 @@
         {
           "name": "api-1.1.7-sources.jar",
           "url": "api-1.1.7-sources.jar",
-          "size": 16057,
-          "sha512": "bc1ba83fd753887b53a817136cbcf0c486fdd25b155ef9d0ba4a603febaf092808f86c3b0a337ef97681e72d22da575d8195c760409c2a42a5fbc2f7fdd9abbe",
-          "sha256": "5944de65fd1e7fc95690e4141dfedea3f6f1010a2f4492086243b4d43317d740",
-          "sha1": "557e290240d5ffb62bb0c8153eb6cdf7a8450345",
-          "md5": "ae348da4c42374d9350fbe2c42913a1f"
+          "size": 16017,
+          "sha512": "3b573630da172136fa2850885d47ab58b83ac3878c35b3eea7ac35ab6c83aaffd114ed97081ad727e718913ab8923199b0ef12b8cfbd4fda19bfb46732e794ef",
+          "sha256": "5a5866d7bc18bf71c9731e734e3b5b33e7bb469419008f51a8283bedfeb63891",
+          "sha1": "8244957969e739092208b31b84bf765dd1c280b2",
+          "md5": "719b680dd2a63f32d2b98f80e1fbb07a"
         }
       ]
     },
