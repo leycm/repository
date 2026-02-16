@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.leycm.linguae",
+    "module": "common",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "common-1.0.3.jar",
+          "url": "common-1.0.3.jar",
+          "size": 1096877,
+          "sha512": "fab6deee64179cacd3bc0f35b27932a4b7c36c2345d999f498aa262760b28f5e187bf25b070f421b841a74652164c96f34c680f46c7e86856f2c43792d36a4eb",
+          "sha256": "7f0736365aa0c34799968400f1afd53584a183bb97f3eca46f8d2a69ea445e9b",
+          "sha1": "d3e6007e3d1f28c0fba3f6ea1185ec8873c0944f",
+          "md5": "cb57a7e857c848f374293b52434da15d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.leycm.neck",
+          "module": "api",
+          "version": {
+            "requires": "1.1.6"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api",
+          "version": {
+            "requires": "4.24.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-minimessage",
+          "version": {
+            "requires": "4.24.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-plain",
+          "version": {
+            "requires": "4.24.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-legacy",
+          "version": {
+            "requires": "4.24.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson",
+          "version": {
+            "requires": "4.24.0"
+          }
+        },
+        {
+          "group": "de.leycm.linguae",
+          "module": "api",
+          "version": {
+            "requires": "1.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-1.0.3.jar",
+          "url": "common-1.0.3.jar",
+          "size": 1096877,
+          "sha512": "fab6deee64179cacd3bc0f35b27932a4b7c36c2345d999f498aa262760b28f5e187bf25b070f421b841a74652164c96f34c680f46c7e86856f2c43792d36a4eb",
+          "sha256": "7f0736365aa0c34799968400f1afd53584a183bb97f3eca46f8d2a69ea445e9b",
+          "sha1": "d3e6007e3d1f28c0fba3f6ea1185ec8873c0944f",
+          "md5": "cb57a7e857c848f374293b52434da15d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "common-1.0.3-sources.jar",
+          "url": "common-1.0.3-sources.jar",
+          "size": 1083709,
+          "sha512": "1f11117289af1fe137cc6954a58d30e974d2481e7d200bc36b1455bc1158bb097be92294b0db13a35888b079f6a7a7fc8b270de1e0f5fbc1b82aa2b64ef423ee",
+          "sha256": "38af743dfcc896fb71a7e193cb25fb729d77a2f79b3f08a115adf223062d7c34",
+          "sha1": "2acdaf098c47b4a0a9a6b06a005ae2c0330382ff",
+          "md5": "d7c8eed73a0be89839632b55e32c2231"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "common-1.0.3-javadoc.jar",
+          "url": "common-1.0.3-javadoc.jar",
+          "size": 1208018,
+          "sha512": "b3f873f9d6ce1e90f2d6801274de412436b8759ee25b61d113b24fd31b5a8acb176b3e8c389dbd72b5e37f5a8c4ab08768b976e43a8bdd30f286db995fc41b0d",
+          "sha256": "2cc9a27a37be1711f03e5982724109087504ad07100af25e9692db0709ac215c",
+          "sha1": "c63933af1a6766e328288fca01361507afe43d11",
+          "md5": "5cd16a5345e1b3bc4df3ff6aba09be88"
+        }
+      ]
+    }
+  ]
+}
