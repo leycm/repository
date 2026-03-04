@@ -15,14 +15,14 @@
   <url>https://github.com/leycm</url>
   <licenses>
     <license>
-      <name>LECP License</name>
-      <url>https://github.com/leycm/leycm/blob/main/LICENSE</url>
+      <name>LGPL-3.0 License</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
     </license>
   </licenses>
   <developers>
     <developer>
       <id>leycm</id>
-      <name>LeyCM</name>
+      <name>Lennard</name>
       <email>leycm@proton.me</email>
     </developer>
   </developers>
