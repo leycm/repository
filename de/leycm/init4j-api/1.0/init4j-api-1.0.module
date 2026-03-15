@@ -68,11 +68,11 @@
         {
           "name": "init4j-api-1.0-sources.jar",
           "url": "init4j-api-1.0-sources.jar",
-          "size": 17027,
-          "sha512": "0e247dccfe60acc9110f97b2a096d2e5fc3844018690e902a970d162e2c18c5c378e44ecadaca629a06c0afc1f30429ea7203f0633b67d04b443d484ff72cd45",
-          "sha256": "6042d59115fc158dba7f98255d0e00bd4602fe0a511ac76cbb06f2276c66d9f7",
-          "sha1": "66264c2419330e458c265f8ce1e753770bdc86c8",
-          "md5": "46550ab7624f719669f2382fa33f457f"
+          "size": 17042,
+          "sha512": "62e27291f156b98fea41967b5c288965d28d7fb2561c019354ea1fb64505436fef068900a9a322bb805a4ddd7b5268a8da05f740a31035af328c0ad9301590a9",
+          "sha256": "6bf8f2dfa5ce53288dcae9c4393d9ab7e5fe4a34bfd9b1e1d438f98735cd082b",
+          "sha1": "95f1ee7b0803fd06bf581df018df759c2d927334",
+          "md5": "668a30d4132018a5d1b9a51902321816"
         }
       ]
     },
@@ -88,11 +88,11 @@
         {
           "name": "init4j-api-1.0-javadoc.jar",
           "url": "init4j-api-1.0-javadoc.jar",
-          "size": 150580,
-          "sha512": "024ea5e3769fa94cf197f3edfe72e8a722f0af8ef39640b1ec285bc5ca4ae3783e41c220cb5225f8ab792bd92edaf635465ef18cceeaa39af0428ae7a2dfbc7c",
-          "sha256": "dce08820e8b9c42a131d7d67e6e767361bef6357ceecafd6cdfb069aa102a9db",
-          "sha1": "247fbecc2091e0c696a86f076790a26ce5a7b455",
-          "md5": "a2c380a01aaf3440f9abf1512699b3db"
+          "size": 150607,
+          "sha512": "c4466ed150b4f9499fe068198f456469af1172d93fecfdb40df806a97df59b041f47d156944044541c3ed06c6528e253d643ad5f38255097c6dfb57c20e33852",
+          "sha256": "b97718a8370930e34e74969b9e47257a6bfc949011911f12c585c07e94d6c40d",
+          "sha1": "5655087eeebbfc3b41390ce3915275b7fc438c13",
+          "md5": "f4b96b359793c39417863440d80a57ff"
         }
       ]
     }
