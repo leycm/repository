@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.leycm",
+    "module": "i18label4j-api",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "i18label4j-api-1.0.jar",
+          "url": "i18label4j-api-1.0.jar",
+          "size": 16018,
+          "sha512": "2396b835bc98a29cb7edfd069e90f1e4fecfa195a1271126d6755fc674be6c5b1434e8d3368281d64ced0b652ffbb88425b39871df0662cc384d4f788de9938b",
+          "sha256": "84aa7d01777268db5bcb8a7260c3fc9cf85c5418f070b5ad20fafb085ddde47a",
+          "sha1": "8c978fa12100820e72e939081279bff10123b5a1",
+          "md5": "0030c117c1c7b43c31af0005a2624daf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "i18label4j-api-1.0.jar",
+          "url": "i18label4j-api-1.0.jar",
+          "size": 16018,
+          "sha512": "2396b835bc98a29cb7edfd069e90f1e4fecfa195a1271126d6755fc674be6c5b1434e8d3368281d64ced0b652ffbb88425b39871df0662cc384d4f788de9938b",
+          "sha256": "84aa7d01777268db5bcb8a7260c3fc9cf85c5418f070b5ad20fafb085ddde47a",
+          "sha1": "8c978fa12100820e72e939081279bff10123b5a1",
+          "md5": "0030c117c1c7b43c31af0005a2624daf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "i18label4j-api-1.0-sources.jar",
+          "url": "i18label4j-api-1.0-sources.jar",
+          "size": 21671,
+          "sha512": "a6710aeed8ab359d32e2f74b262edbc71235baadbc559d70b85a69a3309aecf73835a1921dd3451618fa098929dfc2f0f6b1986b94e8a9fe87b271eb2dc57f62",
+          "sha256": "0943f3458e386eec1e28d6bb3877a4a531a46fb06a3a8b31d7ffcf547ba73439",
+          "sha1": "1b0e2f3e304c53bb5de8839226d48ef4b7e20611",
+          "md5": "704226e5d49b8756efb8d59da6391877"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "i18label4j-api-1.0-javadoc.jar",
+          "url": "i18label4j-api-1.0-javadoc.jar",
+          "size": 152866,
+          "sha512": "258d515cbce964cfeb78a5667ae13841f025058ba0f6ab2976b0dabbb09c2d4c7143072e71570ca9b4a316476d48ab46e0bb85168cbf54f8442c6d43be2d6d19",
+          "sha256": "dd73723169252dc6bb84819327991deb16a6e50eca572c15341659412fd84ff1",
+          "sha1": "1a89d306c11c5b8e551203bc23e87b534b4efafc",
+          "md5": "4c985904e92b014f34082a8178b76c6e"
+        }
+      ]
+    }
+  ]
+}
