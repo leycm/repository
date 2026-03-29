@@ -27,11 +27,11 @@
         {
           "name": "i18label4j-impl-1.0.jar",
           "url": "i18label4j-impl-1.0.jar",
-          "size": 30973,
-          "sha512": "0db905ed05fc88ebd3770e51753f635eb8a9b6dc0748cfbdcd83a3c695c6921e433e521f204ecadd851ed894e3e4471c7911bf05f5943d20c008dafa339b83df",
-          "sha256": "56df5b41994d7dc0735022eb30df129251c2166a2ba3ab6a3dddefbb9db73e46",
-          "sha1": "f21ffb8103ac96ebb373adb3614da2044bdd4896",
-          "md5": "94137d7657cd23327a98f967e1cfd7b7"
+          "size": 61398,
+          "sha512": "53e74a7e2cebf82e1e5aafd014b87e1e08a950e8a65c08943e516a63d840c32502fc148060b5d1d6860e5b012154e9544d9f7cbcfb7d2ca1db6aa38be141545c",
+          "sha256": "56365e51b51a967c4463c4272c5708c5e7a596c7baa823e6c37331548bd72b12",
+          "sha1": "211253ec25b41d0c873ab354979818a268dd9159",
+          "md5": "f6be59be040dc3c56c691586df724e5f"
         }
       ]
     },
@@ -50,20 +50,6 @@
           "module": "init4j-api",
           "version": {
             "requires": "1.2"
-          }
-        },
-        {
-          "group": "org.jetbrains",
-          "module": "annotations",
-          "version": {
-            "requires": "24.0.1"
-          }
-        },
-        {
-          "group": "de.leycm",
-          "module": "i18label4j-api",
-          "version": {
-            "requires": "1.0"
           }
         },
         {
@@ -86,17 +72,24 @@
           "version": {
             "requires": "0.7.2"
           }
+        },
+        {
+          "group": "de.leycm",
+          "module": "i18label4j-api",
+          "version": {
+            "requires": "1.0"
+          }
         }
       ],
       "files": [
         {
           "name": "i18label4j-impl-1.0.jar",
           "url": "i18label4j-impl-1.0.jar",
-          "size": 30973,
-          "sha512": "0db905ed05fc88ebd3770e51753f635eb8a9b6dc0748cfbdcd83a3c695c6921e433e521f204ecadd851ed894e3e4471c7911bf05f5943d20c008dafa339b83df",
-          "sha256": "56df5b41994d7dc0735022eb30df129251c2166a2ba3ab6a3dddefbb9db73e46",
-          "sha1": "f21ffb8103ac96ebb373adb3614da2044bdd4896",
-          "md5": "94137d7657cd23327a98f967e1cfd7b7"
+          "size": 61398,
+          "sha512": "53e74a7e2cebf82e1e5aafd014b87e1e08a950e8a65c08943e516a63d840c32502fc148060b5d1d6860e5b012154e9544d9f7cbcfb7d2ca1db6aa38be141545c",
+          "sha256": "56365e51b51a967c4463c4272c5708c5e7a596c7baa823e6c37331548bd72b12",
+          "sha1": "211253ec25b41d0c873ab354979818a268dd9159",
+          "md5": "f6be59be040dc3c56c691586df724e5f"
         }
       ]
     },
@@ -112,11 +105,11 @@
         {
           "name": "i18label4j-impl-1.0-sources.jar",
           "url": "i18label4j-impl-1.0-sources.jar",
-          "size": 24130,
-          "sha512": "18297a0aa19675fc87fbcf94ee3df5c8afabccff34ebf5911d3b27ada495bfd804d0edc158f7c9a65f39aa0b111b7c1f61fa989759abe5e7636b0e464bb1a1f6",
-          "sha256": "f5daa8a251e81c7538de178fc40ae31bb4442129cdc35e2f0e3a07d13ee8fcf3",
-          "sha1": "e65972b8029011b0361ea7890606915c01495d7e",
-          "md5": "4351a63b4771b4ccf1ed51c59f1ca1ac"
+          "size": 35954,
+          "sha512": "d9febe76cad8eada57ea6a96de729bdc7d01550d4524801a6d0e112ecf3241429b7b809ef0be120c60b856206b95857cf0b4f4b2d1b9a1e47b9422865be859d3",
+          "sha256": "a6c983ac36e5a8be29d3281e7da5f0d1ba56dea9f5ade2a2f18d34945cdeea45",
+          "sha1": "0950ee4097a319fdc7c87c23009d9ebf9e54974c",
+          "md5": "178e624090b3aa7563e75d5618621de9"
         }
       ]
     },
@@ -132,11 +125,11 @@
         {
           "name": "i18label4j-impl-1.0-javadoc.jar",
           "url": "i18label4j-impl-1.0-javadoc.jar",
-          "size": 158956,
-          "sha512": "aff42959193ff7e9f68886a85948160064672cf3edbe9c8199d7d51f8877d9627aa6913cd594f3bd798ba52c70c2a8667aa62d10d63b46cd825b0db18aed6c9a",
-          "sha256": "8ea377cac83f6029fb968e8a0aebbecad2a86ad5a9b203a67dde67db314c6aa8",
-          "sha1": "026e1a8068ef2c58727d977676b3e4b6111de10f",
-          "md5": "7c97e5108c2b1e86f9b8d6341c96e4e9"
+          "size": 249905,
+          "sha512": "69764ddc7df0112c37885f8df0b819b68c8492b43473159773d1ea11e6cf871c84c08e5bf66567e6e080b8ba23b1f0cd2e7e2a3a0163939eb727084ac61c8f7a",
+          "sha256": "491e631e45d0b3ee15f953045dfca688e7260a48a09f7a796e66886db25c798d",
+          "sha1": "84ea9035d1ea3ef187e0e465268327c26131fcca",
+          "md5": "b14d12e74c367ce94b2adfa92de6d6e3"
         }
       ]
     }

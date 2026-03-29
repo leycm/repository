@@ -39,18 +39,6 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>org.jetbrains</groupId>
-      <artifactId>annotations</artifactId>
-      <version>24.0.1</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>de.leycm</groupId>
-      <artifactId>i18label4j-api</artifactId>
-      <version>1.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
       <groupId>org.json</groupId>
       <artifactId>json</artifactId>
       <version>20240303</version>
@@ -66,6 +54,12 @@
       <groupId>com.moandjiezana.toml</groupId>
       <artifactId>toml4j</artifactId>
       <version>0.7.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>de.leycm</groupId>
+      <artifactId>i18label4j-api</artifactId>
+      <version>1.0</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
