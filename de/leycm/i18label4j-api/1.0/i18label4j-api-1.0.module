@@ -27,11 +27,11 @@
         {
           "name": "i18label4j-api-1.0.jar",
           "url": "i18label4j-api-1.0.jar",
-          "size": 15671,
-          "sha512": "4d5d6eeaf0772da3f191d4eb23c6f370a0ba00a0be7b4c496d3fc5d04f696818cb00d4ff06c8e21e45cc969dcb10c82e8e80a97f3dac5594667925fdc04619ac",
-          "sha256": "6a6d88eb87eb973435e58ee869c1fa2e58b8cd3a4d39ff7871955daddb7bb57d",
-          "sha1": "fdf661347b2ee3eb55e698f0ff2b073d3d318e0e",
-          "md5": "e1cf6696cd8c444e2f5c57bff32079a5"
+          "size": 17616,
+          "sha512": "2316827a314186e103fca802e35b2da1b5639ed25c9e916450730cbf6354a1c5c55ea8fc5aca5cf5e3a6fe79cc13d07171eca3a533c1322868f2d0cb0a74b2a4",
+          "sha256": "12e90675239de815a38392c423aea61858558bd43a36a6c232cb25b1303e5deb",
+          "sha1": "101619516c51e10573246df351b93d3d92fb730b",
+          "md5": "13673c7dcc675ccb5f011a54981b901a"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "i18label4j-api-1.0.jar",
           "url": "i18label4j-api-1.0.jar",
-          "size": 15671,
-          "sha512": "4d5d6eeaf0772da3f191d4eb23c6f370a0ba00a0be7b4c496d3fc5d04f696818cb00d4ff06c8e21e45cc969dcb10c82e8e80a97f3dac5594667925fdc04619ac",
-          "sha256": "6a6d88eb87eb973435e58ee869c1fa2e58b8cd3a4d39ff7871955daddb7bb57d",
-          "sha1": "fdf661347b2ee3eb55e698f0ff2b073d3d318e0e",
-          "md5": "e1cf6696cd8c444e2f5c57bff32079a5"
+          "size": 17616,
+          "sha512": "2316827a314186e103fca802e35b2da1b5639ed25c9e916450730cbf6354a1c5c55ea8fc5aca5cf5e3a6fe79cc13d07171eca3a533c1322868f2d0cb0a74b2a4",
+          "sha256": "12e90675239de815a38392c423aea61858558bd43a36a6c232cb25b1303e5deb",
+          "sha1": "101619516c51e10573246df351b93d3d92fb730b",
+          "md5": "13673c7dcc675ccb5f011a54981b901a"
         }
       ]
     },
@@ -68,11 +68,11 @@
         {
           "name": "i18label4j-api-1.0-sources.jar",
           "url": "i18label4j-api-1.0-sources.jar",
-          "size": 21997,
-          "sha512": "5efa3e11fa63fc9c0c0a4737d40d12eeca46bb82c6b690dc6f6189c3d419f6117d4ff173bcf4a28c4083530556a2dc4b8ee3e09914b640a545d5cc5415897587",
-          "sha256": "b189587127f5b79ae64cbfa0614a87900f5b9f2881ddfb10b02a267464948657",
-          "sha1": "6b177bf7767eea89c9d186acde6ef6a4e83217cc",
-          "md5": "100c356658ceb44d3d1de657399ea3df"
+          "size": 24430,
+          "sha512": "b5b5178184fc2a596126516d3d84b36331b9006e2340dfca6c44bfbb4e4e97c205ca173531d69207a2a40c754af3af8f28296902a50d386230511f048a9420cd",
+          "sha256": "6936382a7de136f4999a76756f9478fc0349b4483d58506ea5a875ac9126f137",
+          "sha1": "892de07e1085a2a5f0bd704a1c9877bcccbc37cd",
+          "md5": "9c531d74896a1bcd0f6cf506c41c488f"
         }
       ]
     },
@@ -88,11 +88,11 @@
         {
           "name": "i18label4j-api-1.0-javadoc.jar",
           "url": "i18label4j-api-1.0-javadoc.jar",
-          "size": 152799,
-          "sha512": "0139061f37b8b716ca8c244f8170c3f85d3096ce58d3a6e374b3d42e8297f4bcb1cc74e8135fec0381a1e49dbeebbf9d4b8c9284afff50dd445d58834256064a",
-          "sha256": "91fa01ae3bc8294bed0d1e468465c6bfd16e270152d6cc010f1a9f5c21f90464",
-          "sha1": "360212b3247cd81460dc1cf12afcc7d932337220",
-          "md5": "5ec3a159ff55f415575a05ed0970af96"
+          "size": 160811,
+          "sha512": "e0ae1a9884e6cdbe5cc54cec837a19de7bf12c3bf3088c7165996f441933e52224dd44642274a83c4f0edfb0236521d55519c15e69a6e9e07edf60c37f520884",
+          "sha256": "a8d5a42b2337111390ae5468d1bbfeefd317759d30291d20a6eabe1adeee606b",
+          "sha1": "9f75b3f31ff44675c0518ad35a7c174dafcf842f",
+          "md5": "29522e581ef14dd813f239e988747fe0"
         }
       ]
     }
