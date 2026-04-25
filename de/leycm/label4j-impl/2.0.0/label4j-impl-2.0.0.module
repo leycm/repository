@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.leycm",
+    "module": "label4j-impl",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "label4j-impl-2.0.0.jar",
+          "url": "label4j-impl-2.0.0.jar",
+          "size": 48726,
+          "sha512": "0b9ac1a7462d71d7f4cf80d3b7c5223962cd4afa4d9dae3c8744263ec9cff87b74bd469f4df49a4ad4baee799e25f4c9da3cfd036395118d123d7c0da9ea387c",
+          "sha256": "a8cf52ad2d4030f1e52bfd3d69f274d2d77c1df6a24cb441f24e3538c728586a",
+          "sha1": "3541f7e1fa445321a79bde4aa3cba0767d9711de",
+          "md5": "ce86b7f806acc88069d34b0397d52ea9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.leycm",
+          "module": "init4j-api",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "de.leycm",
+          "module": "label4j-api",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20240303"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "label4j-impl-2.0.0.jar",
+          "url": "label4j-impl-2.0.0.jar",
+          "size": 48726,
+          "sha512": "0b9ac1a7462d71d7f4cf80d3b7c5223962cd4afa4d9dae3c8744263ec9cff87b74bd469f4df49a4ad4baee799e25f4c9da3cfd036395118d123d7c0da9ea387c",
+          "sha256": "a8cf52ad2d4030f1e52bfd3d69f274d2d77c1df6a24cb441f24e3538c728586a",
+          "sha1": "3541f7e1fa445321a79bde4aa3cba0767d9711de",
+          "md5": "ce86b7f806acc88069d34b0397d52ea9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "label4j-impl-2.0.0-sources.jar",
+          "url": "label4j-impl-2.0.0-sources.jar",
+          "size": 25319,
+          "sha512": "b0d345accd66c5bfc7dc37d05ce62c994ff5f7f7559130406c1a7ddc6b6c9956e1bb5f7e03406b6c3f6ca3b34a513a65d7749ac1edd41277ddcb21f74a092722",
+          "sha256": "113954cd3702f502fe4f491a714d48ba2bdec48e420f0ca2b60019e9f2c27448",
+          "sha1": "5b53162cd41b02410435e3ac491155ce54ea5481",
+          "md5": "d91a32964fb71e3ddba9cbdab3458229"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "label4j-impl-2.0.0-javadoc.jar",
+          "url": "label4j-impl-2.0.0-javadoc.jar",
+          "size": 172900,
+          "sha512": "ef244bb211339738f8018a25a98e593c5b7444e1fd4584f78913b8778567cb34b429f87df1a420c4d70a6ee7bf060dead6afb3435a95c0910453319916f6c3d6",
+          "sha256": "e48eef69f2c98a6ee8542283f66b571dbf5935b584b876239f569300b58f38fa",
+          "sha1": "06eeda2d5e3446f2714f92f5ae067ded450537b0",
+          "md5": "e3d60f1cbb8ef687799645e7d5e30d23"
+        }
+      ]
+    }
+  ]
+}
