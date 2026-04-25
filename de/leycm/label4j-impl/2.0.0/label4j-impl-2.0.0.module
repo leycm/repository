@@ -27,11 +27,11 @@
         {
           "name": "label4j-impl-2.0.0.jar",
           "url": "label4j-impl-2.0.0.jar",
-          "size": 48726,
-          "sha512": "0b9ac1a7462d71d7f4cf80d3b7c5223962cd4afa4d9dae3c8744263ec9cff87b74bd469f4df49a4ad4baee799e25f4c9da3cfd036395118d123d7c0da9ea387c",
-          "sha256": "a8cf52ad2d4030f1e52bfd3d69f274d2d77c1df6a24cb441f24e3538c728586a",
-          "sha1": "3541f7e1fa445321a79bde4aa3cba0767d9711de",
-          "md5": "ce86b7f806acc88069d34b0397d52ea9"
+          "size": 867403,
+          "sha512": "d5377764fca0d8f21cff9067c3b78b1e28af38c7cdd096be4e052da3da55d31418b39329fc165ff95f87f6a90a9d7f5047b154e69cd6a867df9416547f1f48b6",
+          "sha256": "664e711c6b198d2db9d3e53765bba026c74822aff78c18c8dc3fe970616f78d7",
+          "sha1": "815860019469887359cc90f04bd175791d69df88",
+          "md5": "f9e7eff8939cb7859ac93901fe7159c7"
         }
       ]
     },
@@ -60,24 +60,24 @@
           }
         },
         {
-          "group": "org.json",
+          "group": "com.electronwill.night-config",
           "module": "json",
           "version": {
-            "requires": "20240303"
+            "requires": "3.8.3"
           }
         },
         {
-          "group": "org.yaml",
-          "module": "snakeyaml",
+          "group": "com.electronwill.night-config",
+          "module": "yaml",
           "version": {
-            "requires": "2.2"
+            "requires": "3.8.3"
           }
         },
         {
-          "group": "com.moandjiezana.toml",
-          "module": "toml4j",
+          "group": "com.electronwill.night-config",
+          "module": "toml",
           "version": {
-            "requires": "0.7.2"
+            "requires": "3.8.3"
           }
         }
       ],
@@ -85,11 +85,11 @@
         {
           "name": "label4j-impl-2.0.0.jar",
           "url": "label4j-impl-2.0.0.jar",
-          "size": 48726,
-          "sha512": "0b9ac1a7462d71d7f4cf80d3b7c5223962cd4afa4d9dae3c8744263ec9cff87b74bd469f4df49a4ad4baee799e25f4c9da3cfd036395118d123d7c0da9ea387c",
-          "sha256": "a8cf52ad2d4030f1e52bfd3d69f274d2d77c1df6a24cb441f24e3538c728586a",
-          "sha1": "3541f7e1fa445321a79bde4aa3cba0767d9711de",
-          "md5": "ce86b7f806acc88069d34b0397d52ea9"
+          "size": 867403,
+          "sha512": "d5377764fca0d8f21cff9067c3b78b1e28af38c7cdd096be4e052da3da55d31418b39329fc165ff95f87f6a90a9d7f5047b154e69cd6a867df9416547f1f48b6",
+          "sha256": "664e711c6b198d2db9d3e53765bba026c74822aff78c18c8dc3fe970616f78d7",
+          "sha1": "815860019469887359cc90f04bd175791d69df88",
+          "md5": "f9e7eff8939cb7859ac93901fe7159c7"
         }
       ]
     },
@@ -105,11 +105,11 @@
         {
           "name": "label4j-impl-2.0.0-sources.jar",
           "url": "label4j-impl-2.0.0-sources.jar",
-          "size": 25319,
-          "sha512": "b0d345accd66c5bfc7dc37d05ce62c994ff5f7f7559130406c1a7ddc6b6c9956e1bb5f7e03406b6c3f6ca3b34a513a65d7749ac1edd41277ddcb21f74a092722",
-          "sha256": "113954cd3702f502fe4f491a714d48ba2bdec48e420f0ca2b60019e9f2c27448",
-          "sha1": "5b53162cd41b02410435e3ac491155ce54ea5481",
-          "md5": "d91a32964fb71e3ddba9cbdab3458229"
+          "size": 23966,
+          "sha512": "b2ddfbf688f32b1392f0581aa55bfee09125e46598492c3cc0591b02dd821a96f00b707dfc63fd189441e891b10981f238d45388e33c16a9c6b5161f1309244b",
+          "sha256": "863213d6680859ceb881b7a53d177e096bab6e34b048d3fe8b899b759ca60696",
+          "sha1": "01ae0c01b598380c1dc8c8b89295c69152ed9bea",
+          "md5": "483dba69cdc154e823fa587240065240"
         }
       ]
     },
@@ -125,11 +125,11 @@
         {
           "name": "label4j-impl-2.0.0-javadoc.jar",
           "url": "label4j-impl-2.0.0-javadoc.jar",
-          "size": 172900,
-          "sha512": "ef244bb211339738f8018a25a98e593c5b7444e1fd4584f78913b8778567cb34b429f87df1a420c4d70a6ee7bf060dead6afb3435a95c0910453319916f6c3d6",
-          "sha256": "e48eef69f2c98a6ee8542283f66b571dbf5935b584b876239f569300b58f38fa",
-          "sha1": "06eeda2d5e3446f2714f92f5ae067ded450537b0",
-          "md5": "e3d60f1cbb8ef687799645e7d5e30d23"
+          "size": 179152,
+          "sha512": "c75670ffc3bdf68780d9ee02b7d71fddcfd2a1c5a90b6668d596c5a4c0ebd70adf83fedd99a25808060320483af8f50a62b14d5bbb396b266238d2df991259b1",
+          "sha256": "f5beac1bcdb38b405d4fd3b3e6b9a2803fb516f90f14072c7402453a7a8d91f5",
+          "sha1": "dd7df1773983927dd9dbe35e87bd70c76936569f",
+          "md5": "f1030f2cd0ac5ab912f336aa77f5ea00"
         }
       ]
     }
