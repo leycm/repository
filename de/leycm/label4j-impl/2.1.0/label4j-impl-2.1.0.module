@@ -27,11 +27,11 @@
         {
           "name": "label4j-impl-2.1.0.jar",
           "url": "label4j-impl-2.1.0.jar",
-          "size": 871803,
-          "sha512": "dbbb0297733adf564478860381b6c3233bd4595eafcc003b84a63b632e7901395acfe461ae85ae376efedaf732037b06395178f59732a3ad2360d3172300ece4",
-          "sha256": "0e261f4286dec6a20affb9412bc80da37d1c29af0d2affac1b80134c2c34acc3",
-          "sha1": "dcbe7e8b65312bbcc70d6102e57cd153bbd78882",
-          "md5": "f8ce61c11e26f6d1121ad1aa63cdaa87"
+          "size": 879316,
+          "sha512": "125ffade1f1ab2a692684d549cc948b6e2e760555114054d94668dceda86aa42e028749bce99c6cb6381707af36ebd1ed9e922886835717085bad431168bca88",
+          "sha256": "fe1eb1b162a71a39d70c2826596aced70689b4e8790fe58bf197f17508fdd6b3",
+          "sha1": "1eaeaa900abb8af803043dbd7ab6556370f02d1c",
+          "md5": "37c75f3ed8cb262f384c71b89a44024a"
         }
       ]
     },
@@ -50,13 +50,6 @@
           "module": "init4j-api",
           "version": {
             "requires": "1.2"
-          }
-        },
-        {
-          "group": "de.leycm",
-          "module": "label4j-api",
-          "version": {
-            "requires": "2.1.0"
           }
         },
         {
@@ -79,17 +72,24 @@
           "version": {
             "requires": "3.8.3"
           }
+        },
+        {
+          "group": "de.leycm",
+          "module": "label4j-api",
+          "version": {
+            "requires": "2.1.0"
+          }
         }
       ],
       "files": [
         {
           "name": "label4j-impl-2.1.0.jar",
           "url": "label4j-impl-2.1.0.jar",
-          "size": 871803,
-          "sha512": "dbbb0297733adf564478860381b6c3233bd4595eafcc003b84a63b632e7901395acfe461ae85ae376efedaf732037b06395178f59732a3ad2360d3172300ece4",
-          "sha256": "0e261f4286dec6a20affb9412bc80da37d1c29af0d2affac1b80134c2c34acc3",
-          "sha1": "dcbe7e8b65312bbcc70d6102e57cd153bbd78882",
-          "md5": "f8ce61c11e26f6d1121ad1aa63cdaa87"
+          "size": 879316,
+          "sha512": "125ffade1f1ab2a692684d549cc948b6e2e760555114054d94668dceda86aa42e028749bce99c6cb6381707af36ebd1ed9e922886835717085bad431168bca88",
+          "sha256": "fe1eb1b162a71a39d70c2826596aced70689b4e8790fe58bf197f17508fdd6b3",
+          "sha1": "1eaeaa900abb8af803043dbd7ab6556370f02d1c",
+          "md5": "37c75f3ed8cb262f384c71b89a44024a"
         }
       ]
     },
@@ -105,11 +105,11 @@
         {
           "name": "label4j-impl-2.1.0-sources.jar",
           "url": "label4j-impl-2.1.0-sources.jar",
-          "size": 30229,
-          "sha512": "9f9919f0f644570301644d1acbcb6b855bc85a659b26f3f2da8c0c7d75e98870faf5f7c180f53ced1535ba4f5136cd95d7cbfaf60eb361200f76823c51cb2540",
-          "sha256": "dc4294310338950e0bafbb4b48d33bfab6d4459bcf8f0ef73dd71fa8c0107ca4",
-          "sha1": "8b82cb9ec95840e5a277f3eb2774fdfeeaaeb1a6",
-          "md5": "482e64934ce694b93d4462bfb53ce61e"
+          "size": 32260,
+          "sha512": "ae9f592df57db50c5f468af43e245a35f01bbdfa3e012bd7daf3c588dabe05689c35fe33e2a63b2c7d3337352cf9eb64dbf5fc99f1c5f55635da49da49374b87",
+          "sha256": "63b5473d7e866632d939725ac834920691a9af9d81783d2d17a6db6c4da4e4ce",
+          "sha1": "90f92865208cc63d12b189d7cc2f1e749e724f18",
+          "md5": "fd63c705b9f62400c9625052de335bdc"
         }
       ]
     },
@@ -125,11 +125,11 @@
         {
           "name": "label4j-impl-2.1.0-javadoc.jar",
           "url": "label4j-impl-2.1.0-javadoc.jar",
-          "size": 182256,
-          "sha512": "57fce4c97de3d4f33ff2904431318a3cc6d955e121da2613b9415df08314467bb5ae356d4b12b3a8e42a3f9736f31a94f0f6c07e75b21c7d6998dc6ca680cddb",
-          "sha256": "838e019d3fe0dc56fe7f7cffc979a8481428eb781e6be6c8b0ed26a22f2c36c1",
-          "sha1": "f783d97d10a53dda11b8339a37d0837ad73286af",
-          "md5": "4c980e22c02c65be2f19a69f06d357a4"
+          "size": 181766,
+          "sha512": "9d66994475a533b1916761e9d92aef932565dd9352245748a9a54230c1bfbba8afcb13e3ede6802d0255d0b9f22a860a756909996f9c436e87622ff7f67e0101",
+          "sha256": "31dbcee4afac9cad38e71fba8ae556221b57e2ddf1ab1a8faead06041259fe6b",
+          "sha1": "b47129b14f96f96bd571075aba49f0c1b2bdcd7f",
+          "md5": "76b0ba5101d9d0d4a0e788734bce1e22"
         }
       ]
     }
