@@ -27,11 +27,11 @@
         {
           "name": "label4j-api-2.1.0.jar",
           "url": "label4j-api-2.1.0.jar",
-          "size": 32242,
-          "sha512": "119420fc829ddd58f3c58fe52ed3b8660c29a220688bd3a97bf0160781b98624c4733993ac8ee9dceff520f287664a6b65bc3ab620b26f976d1d3b776133b9ba",
-          "sha256": "24933804ada3fe99ea8010ac8f4dc627aee91436b9b93b13e37ea4f756741055",
-          "sha1": "5f6a0bfca30a20e1140364cf0d4159a74c860b7f",
-          "md5": "bdcbf0e1425941bad480122bf89f2349"
+          "size": 34708,
+          "sha512": "9d0567d4627cc7b57709a6008e37c6d33b6aa5712104cfea988fc05bd6447cc34e8552b626e11d826b58f97a2f6cd4e8caa68a83acd2aa67c6e7cb973ea6b504",
+          "sha256": "657bcc72fdc8c032cd03243913261f6e6c171270901b023d80cf05180ff5f8d8",
+          "sha1": "ab47e246efffcef45c9bb5c61718a08a4b35d15c",
+          "md5": "c6b318d49a624e87b5451e591d64659c"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "label4j-api-2.1.0.jar",
           "url": "label4j-api-2.1.0.jar",
-          "size": 32242,
-          "sha512": "119420fc829ddd58f3c58fe52ed3b8660c29a220688bd3a97bf0160781b98624c4733993ac8ee9dceff520f287664a6b65bc3ab620b26f976d1d3b776133b9ba",
-          "sha256": "24933804ada3fe99ea8010ac8f4dc627aee91436b9b93b13e37ea4f756741055",
-          "sha1": "5f6a0bfca30a20e1140364cf0d4159a74c860b7f",
-          "md5": "bdcbf0e1425941bad480122bf89f2349"
+          "size": 34708,
+          "sha512": "9d0567d4627cc7b57709a6008e37c6d33b6aa5712104cfea988fc05bd6447cc34e8552b626e11d826b58f97a2f6cd4e8caa68a83acd2aa67c6e7cb973ea6b504",
+          "sha256": "657bcc72fdc8c032cd03243913261f6e6c171270901b023d80cf05180ff5f8d8",
+          "sha1": "ab47e246efffcef45c9bb5c61718a08a4b35d15c",
+          "md5": "c6b318d49a624e87b5451e591d64659c"
         }
       ]
     },
@@ -68,11 +68,11 @@
         {
           "name": "label4j-api-2.1.0-sources.jar",
           "url": "label4j-api-2.1.0-sources.jar",
-          "size": 24554,
-          "sha512": "3c72db55ca8734a7b8a92429e0736c7407b4574e428711b1616f6cde7bcbbbd24d2ce3c8bd9afa7292fba74ca8ee7b9c139c0a09aefa2c9c3449132a836bab61",
-          "sha256": "6ad1bd829a67c54b02927dbaeb40ee9ad7bcd8b8c3a941c95cd45e84599948d0",
-          "sha1": "4eb61d73f2e8ff6de96568f5c870e2854da73e92",
-          "md5": "33bf044ab6167b39bcb37d676ef67022"
+          "size": 26372,
+          "sha512": "0fb512ef10c072992e3f21f96fe2c84f06c706ebc3528e1b40468bceb2c5da99f79c8c7b9a4b19ce64ea0955d66e716c14455ecfdde13144d2c371fa8490bded",
+          "sha256": "763aa8950421b33cb3a33e0a9153d72a410f700a0c094cae0430554068f915ae",
+          "sha1": "327678d5a42031df99941b83acf621b897a90f6a",
+          "md5": "32b3e0c87849360bf03ac5f8db42c5b6"
         }
       ]
     },
@@ -88,11 +88,11 @@
         {
           "name": "label4j-api-2.1.0-javadoc.jar",
           "url": "label4j-api-2.1.0-javadoc.jar",
-          "size": 175622,
-          "sha512": "fbf499de3220a9194f5d08b3c811c9b29dfcc5f5232704f3cdaadb5ee233c347685a3e3824557c125600c0eea93bc2306b9d63d8d3f1c6735967bb2654a4c759",
-          "sha256": "ba21c83649e8811419a899ec02a7d81b9454fe5b068a085adb114675d38cc3a9",
-          "sha1": "73f341633307de312d6e0e94e828680f701d72d1",
-          "md5": "c80a8f381541a49da236691703b3e65d"
+          "size": 182679,
+          "sha512": "493e7cbb4ab963aee7fdace22caf4ea4ad1630cd35147ed35bac5c89a6a02a4e12dc6d5dafbe4aa4db60b33f480b69064e24d77dbdab361269ff95d4b27b6770",
+          "sha256": "d1538dfb33fe4c95644961ea2cca62946f17c4c72c9f2c85f64ef39a4fc21321",
+          "sha1": "1a7531b5ea08340dbd55e625f900e165ec906d69",
+          "md5": "4a5e931e73e0c6a18085d3926d9f8dbf"
         }
       ]
     }
