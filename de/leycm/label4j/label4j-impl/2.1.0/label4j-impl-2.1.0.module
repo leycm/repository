@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.leycm.label4j",
+    "module": "label4j-impl",
+    "version": "2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "label4j-impl-2.1.0.jar",
+          "url": "label4j-impl-2.1.0.jar",
+          "size": 879316,
+          "sha512": "125ffade1f1ab2a692684d549cc948b6e2e760555114054d94668dceda86aa42e028749bce99c6cb6381707af36ebd1ed9e922886835717085bad431168bca88",
+          "sha256": "fe1eb1b162a71a39d70c2826596aced70689b4e8790fe58bf197f17508fdd6b3",
+          "sha1": "1eaeaa900abb8af803043dbd7ab6556370f02d1c",
+          "md5": "37c75f3ed8cb262f384c71b89a44024a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.leycm",
+          "module": "init4j-api",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "json",
+          "version": {
+            "requires": "3.8.3"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "yaml",
+          "version": {
+            "requires": "3.8.3"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.8.3"
+          }
+        },
+        {
+          "group": "de.leycm.label4j",
+          "module": "label4j-api",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "label4j-impl-2.1.0.jar",
+          "url": "label4j-impl-2.1.0.jar",
+          "size": 879316,
+          "sha512": "125ffade1f1ab2a692684d549cc948b6e2e760555114054d94668dceda86aa42e028749bce99c6cb6381707af36ebd1ed9e922886835717085bad431168bca88",
+          "sha256": "fe1eb1b162a71a39d70c2826596aced70689b4e8790fe58bf197f17508fdd6b3",
+          "sha1": "1eaeaa900abb8af803043dbd7ab6556370f02d1c",
+          "md5": "37c75f3ed8cb262f384c71b89a44024a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "label4j-impl-2.1.0-sources.jar",
+          "url": "label4j-impl-2.1.0-sources.jar",
+          "size": 32260,
+          "sha512": "ae9f592df57db50c5f468af43e245a35f01bbdfa3e012bd7daf3c588dabe05689c35fe33e2a63b2c7d3337352cf9eb64dbf5fc99f1c5f55635da49da49374b87",
+          "sha256": "63b5473d7e866632d939725ac834920691a9af9d81783d2d17a6db6c4da4e4ce",
+          "sha1": "90f92865208cc63d12b189d7cc2f1e749e724f18",
+          "md5": "fd63c705b9f62400c9625052de335bdc"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "label4j-impl-2.1.0-javadoc.jar",
+          "url": "label4j-impl-2.1.0-javadoc.jar",
+          "size": 181766,
+          "sha512": "9d66994475a533b1916761e9d92aef932565dd9352245748a9a54230c1bfbba8afcb13e3ede6802d0255d0b9f22a860a756909996f9c436e87622ff7f67e0101",
+          "sha256": "31dbcee4afac9cad38e71fba8ae556221b57e2ddf1ab1a8faead06041259fe6b",
+          "sha1": "b47129b14f96f96bd571075aba49f0c1b2bdcd7f",
+          "md5": "76b0ba5101d9d0d4a0e788734bce1e22"
+        }
+      ]
+    }
+  ]
+}
